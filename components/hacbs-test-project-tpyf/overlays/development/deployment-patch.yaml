@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-tpyf
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rycole-appstudio/integration1-nkii-tenant/integ-app-fzcb/hacbs-test-project-tpyf@sha256:a1cc758fee3839d0716d53d7750f38ed52345077e848fbf871e38e58e66d05ce
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
